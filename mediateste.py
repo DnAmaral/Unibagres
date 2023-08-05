@@ -7,4 +7,4 @@ def calcular_media():
     
     print("A média é:", media)
     
-calcular_media
+calcular_media # teste de código para fazer calculos
