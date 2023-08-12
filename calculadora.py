@@ -8,8 +8,12 @@ operador = input ("Digite o operador ( +, -, /, *):")
 num01_float = 0
 num02_float = 0
 
+try:
 num01_float = float(num01)
 num02_float = float(num02)
+except:
+print("Valor não aceito")
+
 
 if operador == "+":
     print(f" {num01_float} + {num02_float} ="  , num01_float + num02_float )
