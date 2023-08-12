@@ -7,7 +7,7 @@ altura = float (input("Digite sua altura (m): "))
 
 imc = calcular_imc(peso, altura)
 
-print ("Seu IMC é:", imc)
+print (f"Seu IMC é: {imc:,.1f} " )
 
 if imc < 18.5:
     print("Abaixo do peso")
@@ -20,6 +20,6 @@ elif 30 <= imc < 34.9:
 elif 35 <= imc < 39.9:
     print("Obesidade grau 2")
 else:
-    print("Obesidade grau 3")
+    print("Obesidade grau 3") 
 
 

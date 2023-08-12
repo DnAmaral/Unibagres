@@ -13,12 +13,3 @@ num02_float = float(num02)
 
 if operador == "+":
     print(f" {num01_float} + {num02_float} ="  , num01_float + num02_float )
-
-if operador == "*":
-    print(f" {num01_float} * {num02_float} ="  , num01_float * num02_float )
-
-if operador == "-":
-    print(f" {num01_float} - {num02_float} ="  , num01_float - num02_float )
-
-if operador == "/":
-    print(f" {num01_float} / {num02_float} ="  , num01_float / num02_float )
