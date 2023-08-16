@@ -9,10 +9,10 @@ num01_float = 0
 num02_float = 0
 
 try:
-num01_float = float(num01)
-num02_float = float(num02)
+    num01_float = float(num01)
+    num02_float = float(num02)
 except:
-print("Valor não aceito")
+    print("Valor não aceito")
 
 
 if operador == "+":
