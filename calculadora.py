@@ -17,3 +17,5 @@ print("Valor não aceito")
 
 if operador == "+":
     print(f" {num01_float} + {num02_float} ="  , num01_float + num02_float )
+
+#em desenvolvimento!
