@@ -12,3 +12,25 @@ elif nota >= 60:
     print('D - Regular')
 else:
     print('F - Reprovado')
+
+
+#Lembrete! Todos os códigos que estão aqui não irão funcionar tudo junto!
+
+opcao = int(input('Escolha uma opção:\n1 - Maçã, Banana, Laranja:'))
+
+if opcao == 1:
+    print ('Você escolheu Maçã.')
+elif opcao == 2:
+    print('Você escolheu Banana.')
+elif opcao == 3:
+    print('Você escolheu Laranja.')
+else:
+    print('Opção inválida!')
+
+#Estruturas de Repetição!
+
+contador = 1
+
+while contador <= 5:
+    print('Contador', contador)
+    contador = contador + 1
