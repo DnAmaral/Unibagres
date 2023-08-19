@@ -10,3 +10,7 @@ dados_cliente["Cidade"] = "Ivaiporã"
 print (dados_cliente)
 
 dados_cliente.pop ("Telefone")
+
+for indice, valor in dados_cliente.items():
+    print(f"Índice: {indice}, valor: {valor}")
+    print("-------------------------------------------------")
