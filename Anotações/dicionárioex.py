@@ -8,3 +8,5 @@ print (dados_cliente['Nome'])
 
 dados_cliente["Cidade"] = "Ivaiporã"
 print (dados_cliente)
+
+dados_cliente.pop ("Telefone")
